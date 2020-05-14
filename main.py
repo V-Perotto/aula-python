@@ -18,3 +18,8 @@ raiz = 9 ** (1/2)
 print(raiz)
 
 #mude os numeros como quizer(somente nao mude o (1/2) da radiciacao)
+
+#   --> DICA: Use variveis para receber o valor
+#   --> Exemplo:    a = int(input("Insira um valor"))
+#                   b = int(input("Insira um valor"))
+#                   c = a + b
