@@ -1,23 +1,24 @@
-#adicao
-print(3 + 2)
+mensagem3 = "É simples porém de coração"
 
-#subtracao
-print(4 - 1)
+age = 18
 
-#multiplicacao
-print(8 * 5)
+idade = " anos"
 
-#divisao
-print(8 / 2)
+mensagem = "Feliz aniversário"
 
-#potenciacao
-print(4 ** 3)
+Para_Vittorio = str(mensagem) + " de " + int(age) + str(idade) + "!"
 
-#radiciacao
-raiz = 9 ** (1/2)  
-print(raiz)
+titulo = "Para Vittorio, de Ricardo."
 
-#mude os numeros como quizer(somente nao mude o (1/2) da radiciacao)
+mensagem2 = "Obrigado por ser a pessoa que você é."
+
+mensagem_final = str(Para_Vittorio) + '\n' + str(mensagem2)
+
+Total = str(titulo) + '\n' + str(mensagem_final) + '\n' + str(mensagem3)
+
+print(Total)
+
+# mude os numeros como quiser(somente nao mude o (1/2) da radiciacao)
 
 #   --> DICA: Use variveis para receber o valor
 #   --> Exemplo:    a = int(input("Insira um valor"))
